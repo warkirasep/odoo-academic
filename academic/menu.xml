@@ -1,5 +1,6 @@
 <odoo>
     <data>
+        <!-- Menu Course -->
         <record id="action_course_list" model="ir.actions.act_window">
             <field name="name">Daftar Course</field>
             <field name="res_model">academic.course</field>
@@ -9,6 +10,19 @@
                     Click To Add Course
                 </p>
                 <p>Klick tombol create untuk bikin course baru</p>
+            </field>
+        </record>
+
+        <!-- Menu Session -->
+        <record id="action_session_list" model="ir.actions.act_window">
+            <field name="name">Daftar Sessio</field>
+            <field name="res_model">academic.session</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Click To Add Session
+                </p>
+                <p>Klick tombol create untuk bikin session baru</p>
             </field>
         </record>
 
@@ -25,6 +39,12 @@
             name="Course"
             parent="academic_1"
             action="action_course_list"
+            sequence="20"
+        />
+        <menuitem id="menu_academic_session"
+            name="Session"
+            parent="academic_1"
+            action="action_session_list"
             sequence="20"
         />
     </data>

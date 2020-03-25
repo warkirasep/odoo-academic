@@ -7,6 +7,7 @@
     "website": "https://www.asepit.com/",
     "description": "Ini Adalah Aplikasi Module Academic",
     "data": [
-        "menu.xml"
+        "menu.xml",
+        "course.xml",
     ]
 }
