@@ -9,5 +9,6 @@
     "data": [
         "menu.xml",
         "course.xml",
+        "session.xml",
     ]
 }

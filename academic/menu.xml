@@ -15,7 +15,7 @@
 
         <!-- Menu Session -->
         <record id="action_session_list" model="ir.actions.act_window">
-            <field name="name">Daftar Sessio</field>
+            <field name="name">Daftar Session</field>
             <field name="res_model">academic.session</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
